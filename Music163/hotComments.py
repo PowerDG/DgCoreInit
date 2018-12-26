@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding = utf-8
+#coding = utf-8
 from Crypto.Cipher import AES
 import base64
 import requests
@@ -10,12 +9,14 @@ import random
 
 headers = {
     'Referer': 'http://music.163.com/song?id=531051217',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+    'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
     'Cookie': 'JSESSIONID-WYYY=%5CuiUi%5C%2FYs%2FcJcoQ5xd3cBhaHw0rEfHkss1s%2FCfr92IKyg2hJOrJquv3fiG2%2Fn9GZS%2FuDH8PY81zGquF4GIAVB9eYSdKJM1W6E2i1KFg9%5CuZ4xU6VdPCGwp4KOUZQQiWSlRT%2F1r07OmIBn7yYVYN%2BM2MAalUQnoYcyskaXN%5CPo1AOyVVV%3A1516866368046; _iuqxldmzr_=32; _ntes_nnid=7e2e27f69781e78f2c610fa92434946b,1516864568068; _ntes_nuid=7e2e27f69781e78f2c610fa92434946b; __utma=94650624.470888446.1516864569.1516864569.1516864569.1; __utmc=94650624; __utmz=94650624.1516864569.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmb=94650624.8.10.1516864569'
 }
 
-'''Cookie在Aookucation中的https://music.163.com -->JSESSIONID-WYYY'''
+'''Cookie在Aookucation中的https://music.163.com -->'''
 proxies = {'http': 'http://221.200.107.118', 'https': 'http://116.2.25.251'}
+
+
 
 first_param = '{rid:"", offset:"0", total:"true", limit:"20", csrf_token:""}'
 second_param = "010001"
@@ -98,3 +99,4 @@ if __name__ == "__main__":
     "程序耗时%f秒." % (end_time - start_time)
     print
     '***NetEase_Music_Spider@Awesome_Tang***'
+
