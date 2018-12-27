@@ -1,3 +1,34 @@
+# -*- coding: utf-8 -*-
+#date : 2018-02-28
+#author : Awesome_Tang
+#version : Python 2.7.9
+
+'''
+网易云音乐评论爬虫
+'''
+
+from Crypto.Cipher import AES
+import base64
+import requests
+import json
+import time
+import pandas as pd
+import random
+from threading import Thread
+from bs4 import BeautifulSoup
+from selenium import webdriver
+import threading
+
+
+headers = {
+    'Referer': 'http://music.163.com/song?id=531051217',
+    'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+    'Cookie': 'JSESSIONID-WYYY=%5CuiUi%5C%2FYs%2FcJcoQ5xd3cBhaHw0rEfHkss1s%2FCfr92IKyg2hJOrJquv3fiG2%2Fn9GZS%2FuDH8PY81zGquF4GIAVB9eYSdKJM1W6E2i1KFg9%5CuZ4xU6VdPCGwp4KOUZQQiWSlRT%2F1r07OmIBn7yYVYN%2BM2MAalUQnoYcyskaXN%5CPo1AOyVVV%3A1516866368046; _iuqxldmzr_=32; _ntes_nnid=7e2e27f69781e78f2c610fa92434946b,1516864568068; _ntes_nuid=7e2e27f69781e78f2c610fa92434946b; __utma=94650624.470888446.1516864569.1516864569.1516864569.1; __utmc=94650624; __utmz=94650624.1516864569.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmb=94650624.8.10.1516864569'
+}
+proxies = {  "https": "218.94.255.11:8118",
+  "http": "110.73.43.110:8123",}
+
+
 
 first_param = '{rid:"", offset:"0", total:"true", limit:"20", csrf_token:""}'
 second_param = "010001"
@@ -51,5 +82,5 @@ def get_page(url):
     json_dict = json.loads(json_text)
     total_comment = json_dict['total']
     page=(total_comment/20)+1
-    print '***查询到评论共计%d条,%d页***'%(total_comment,page)
+    print ('***查询到评论共计%d条,%d页***'%(total_comment,page))
     return page
