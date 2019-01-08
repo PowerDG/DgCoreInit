@@ -14,58 +14,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DgCoreInit$tuohai666.coverage" NAME="tuohai666 Coverage Results" MODIFIED="1545885974734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163" />
-    <SUITE FILE_PATH="coverage/DgCoreInit$SeleniumTest.coverage" NAME="SeleniumTest Coverage Results" MODIFIED="1546923422304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163" />
-    <SUITE FILE_PATH="coverage/DgCoreInit$tuohai2.coverage" NAME="tuohai2 Coverage Results" MODIFIED="1545890920337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163/tuohai" />
-    <SUITE FILE_PATH="coverage/DgCoreInit$Comments.coverage" NAME="Comments Coverage Results" MODIFIED="1545892427398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163" />
-    <SUITE FILE_PATH="coverage/PyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1545741405267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Broadview/testRequests" />
     <SUITE FILE_PATH="coverage/DgCoreInit$bs4Action.coverage" NAME="bs4Action Coverage Results" MODIFIED="1546924776228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataWranglingwithPython/BS4Test" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2067800850">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.136" value="1" />
-          <entry key="project.open.time.152" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.196" value="1" />
-          <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="csv" value="1" />
-          <entry key="md" value="1" />
-          <entry key="py" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1615" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1615" />
-        </counts>
-      </usages-collector>
-    </session>
+    <SUITE FILE_PATH="coverage/PyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1545741405267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Broadview/testRequests" />
+    <SUITE FILE_PATH="coverage/DgCoreInit$SeleniumTest.coverage" NAME="SeleniumTest Coverage Results" MODIFIED="1546923422304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163" />
+    <SUITE FILE_PATH="coverage/DgCoreInit$Comments.coverage" NAME="Comments Coverage Results" MODIFIED="1545892427398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163" />
+    <SUITE FILE_PATH="coverage/DgCoreInit$tuohai2.coverage" NAME="tuohai2 Coverage Results" MODIFIED="1545890920337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Music163/tuohai" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="PyProject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Broadview/testRequests/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -82,17 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Music163/Comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1036">
+            <state relative-caret-position="120">
               <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeChat/itChat/itchat_FSociety.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -100,23 +51,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Music163/SeleniumTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="220">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="e#23#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataWranglingwithPython/BS4Test/bs4Action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#1#30#0" expanded="true" />
-                <marker date="1546926259521" expanded="true" signature="345:350" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,12 +97,6 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
     <option name="y" value="43" />
@@ -179,6 +111,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PyProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ScrapingWithPython2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,28 +159,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="-1157457246" type="70582d5e:PySkeletonsNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="DgCoreInit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="DgCoreInit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Broadview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DgCoreInit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Broadview" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="testRequests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -410,11 +336,12 @@
       <workItem from="1545739844276" duration="1314000" />
       <workItem from="1545741193463" duration="415000" />
       <workItem from="1545742085444" duration="1829000" />
+      <workItem from="1546949341660" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3558000" />
+    <option name="totallyTimeSpent" value="4186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,10 +353,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4852273" visible="true" weight="0.1924307" />
-      <window_info id="Structure" order="1" sideWeight="0.5147727" side_tool="true" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48360655" visible="true" weight="0.19515885" />
+      <window_info id="Structure" order="1" sideWeight="0.5163934" side_tool="true" visible="true" weight="0.19515885" />
       <window_info id="Favorites" order="2" sideWeight="0.5009009" side_tool="true" weight="0.2496112" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -453,9 +380,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -501,13 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
     <entry file="file://$PROJECT_DIR$/Music163/tuohai/tuohai2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -515,6 +433,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WeChat/itChat/itchat_FSociety.py" />
+    <entry file="file://$PROJECT_DIR$/DataWranglingwithPython/BS4Test/bs4Action.py" />
     <entry file="file://$PROJECT_DIR$/Broadview/testRequests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -525,26 +445,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Broadview/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Music163/Comments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1036">
+        <state relative-caret-position="120">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeChat/itChat/itchat_FSociety.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Music163/SeleniumTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="220">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="e#23#53#0" expanded="true" />
@@ -552,16 +462,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataWranglingwithPython/BS4Test/bs4Action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1#30#0" expanded="true" />
-            <marker date="1546926259521" expanded="true" signature="345:350" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Broadview/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
