@@ -4,8 +4,8 @@ with open('./superHero.xml', 'r') as fp:
 	body = fp.read()
 
 Selector(text=body).xpath('/*').extract()
-
 # print(body)
+
 # https://blog.csdn.net/u013258415/article/details/78974665
 #
 # pip list可以看到scrapy包，但是import scrapy 或者 scrapy startproject xxx时，却报错 ：ImportError：DLL load failed：找不到指定的程序
