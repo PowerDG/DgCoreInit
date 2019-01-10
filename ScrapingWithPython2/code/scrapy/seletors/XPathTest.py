@@ -21,4 +21,6 @@ Selector(text=body).xpath('/*').extract()
 #
 #
 # pip
+
+# python -m pip install --upgrade pip
 # https://blog.csdn.net/u013258415/article/details/78974665
