@@ -13,7 +13,7 @@ import sys
 
 #### 定义MyLog类
 class MyLog(object):
-#### 类MyLog的构造函数
+#### 类MyLog的构造函数-所需导入的Py模块
     def __init__(self):
         self.user = getpass.getuser()
         self.logger = logging.getLogger(self.user)
@@ -23,7 +23,7 @@ class MyLog(object):
         self.logFile = sys.argv[0][0:-3] + '.log'
         self.formatter = logging.Formatter('%(asctime)-12s %(levelname)-8s %(name)-10s %(message)-12s\r\n')
 
-####  日志显示到屏幕上并输出到日志文件内
+####  日志显示到屏幕上并输出到日志文件内--一个到文本，一个到终端
         self.logHand = logging.FileHandler(self.logFile, encoding='utf8')
         self.logHand.setFormatter(self.formatter)
         self.logHand.setLevel(logging.DEBUG)
