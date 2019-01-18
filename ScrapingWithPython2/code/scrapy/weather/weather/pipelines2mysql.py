@@ -6,6 +6,9 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import pymysql
+# pip3 install PyMySQL
+# http://www.runoob.com/python3/python3-mysql.html
+
 
 class WeatherPipeline(object):
     def process_item(self, item, spider):
