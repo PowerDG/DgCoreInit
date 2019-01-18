@@ -9,6 +9,8 @@ import time
 import codecs
 import json
 
+# Python3 JSON 数据解析
+# http://www.runoob.com/python3/python3-json.html
 class WeatherPipeline(object):
     def process_item(self, item, spider):
         today = time.strftime('%Y%m%d', time.localtime())

@@ -7,7 +7,11 @@
 
 import pymysql
 # pip3 install PyMySQL
+# Python3 MySQL 数据库连接 - PyMySQL 驱动
 # http://www.runoob.com/python3/python3-mysql.html
+
+# mysql -u root -p
+# SHOW VAERIABLES LIKE "character%";
 
 
 class WeatherPipeline(object):
