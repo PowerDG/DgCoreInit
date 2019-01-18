@@ -8,6 +8,9 @@
 import codecs
 import time
 
+
+# 作用为扫尾的pipelines
+# Scrapy爬取网页后  取决于此设置如何处理
 class TodaymoviePipeline(object):
     def process_item(self, item, spider):
         today = time.strftime('%Y-%m-%d', time.localtime())
