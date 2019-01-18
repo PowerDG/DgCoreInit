@@ -14,6 +14,7 @@ class WuhanmoviespiderSpider(scrapy.Spider):
         # response 请求返回的数据额
         # 第四个body下的script标签
         selector = response.xpath('/html/body/script[3]/text()')[0].extract()
+        print(selector)
         moviesStr = re.search('"movies":\[.*?\]', selector).group()
         moviesList = re.findall('{.*?}', moviesStr)
         items = []
