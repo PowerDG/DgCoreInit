@@ -2,24 +2,16 @@
 #! /usr/bin/python
 
 import scrapy
-import re
-import sys
-import os
-import sys
-import os
 
-# E:\DgProject\PyProject\ScrapingWithPython2\code\scrapy\todayMovie\todayMovie
 
-sys.path.append(r'E:\DgProject\PyProject\ScrapingWithPython2\code\scrapy\todayMovie')
-from todayMovie.items import TodaymovieItem
-# sys.path.append(os.path.dirname(__file__) + os.sep + '../')
-
-# from ScrapingWithPython2.code.scrapy.todayMovie.todayMovie.items import TodaymovieItem
+# from todayMovie.items import TodaymovieItem
+from ScrapingWithPython2.code.scrapy.todayMovie.todayMovie.items import TodaymovieItem
 # from .todayMovie.items import TodaymovieItem
 
 
-print("dd")
-
+import re
+import sys
+import os
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -47,6 +39,6 @@ class WuhanmoviespiderSpider(scrapy.Spider):
             item['director'] = mDic.get('director')
             item['runtime'] = mDic.get('runtime')
             items.append(item)
-        print(items.count())
+        # print(items.count())
         return items
 
