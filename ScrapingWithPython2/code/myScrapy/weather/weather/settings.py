@@ -21,10 +21,8 @@ HTTPERROR_ALLOWED_CODES = [403]
 
 # Obey robots.txt rules
 <<<<<<< HEAD
-ROBOTSTXT_OBEY = False
-=======
-# ROBOTSTXT_OBEY = True
->>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
+<<<<<<< HEAD
+ROBOTSTXT_OBEY = False 
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -71,7 +69,11 @@ ROBOTSTXT_OBEY = False
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
 <<<<<<< HEAD
+<<<<<<< HEAD
    'weather.pipelines.WeatherPipeline': 300,
+=======
+   'weather.pipelines.WeatherPipeline': 300, 
+>>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
 =======
    'weather.pipelines.WeatherPipeline': 300, 
 >>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366

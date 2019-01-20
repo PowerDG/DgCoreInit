@@ -7,6 +7,9 @@
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
+>>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
+=======
 >>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
 import time
 import codecs
@@ -18,7 +21,11 @@ class WeatherPipeline(object):
         with codecs.open(fileName, 'a', 'utf-8') as fp:
             fp.write("%s \t %s \t %s \t %s \t %s \r\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
                      % (item['cityDate'],
+=======
+                    %(item['cityDate'],
+>>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
 =======
                     %(item['cityDate'],
 >>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
