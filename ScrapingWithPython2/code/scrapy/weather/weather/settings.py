@@ -61,7 +61,7 @@ ROBOTSTXT_OBEY = True
 #EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
-
+# HTTPERROR_ALLOWED_CODES = [403]
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
@@ -69,6 +69,8 @@ ITEM_PIPELINES = {
     'weather.pipelines2json.WeatherPipeline': 301,
     'weather.pipelines2mysql.WeatherPipeline': 301,
 }
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html

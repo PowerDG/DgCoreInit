@@ -49,5 +49,20 @@ scrapy genspider wuHanMovieSpider mtime.com
 Created spider 'wuHanMovieSpider' using template 'basic' in module:
   todayMovie.spiders.wuHanMovieSpider
 
+测试请求返回
+
+scrapy shell http://theater.mtime.com/China_Hubei_Province_Wuhan_Wuchang/4316/
+
+
+
+```
+selector = response.xpath('/html/body/script[3]/text()')[0].extract()
+print(selector)
+```
+
+
+
+
+
 
 

@@ -7,16 +7,15 @@
 
 import time
 import codecs
+import json
 
+# Python3 JSON 数据解析
+# http://www.runoob.com/python3/python3-json.html
 class WeatherPipeline(object):
     def process_item(self, item, spider):
         today = time.strftime('%Y%m%d', time.localtime())
-        fileName = today + '.txt'
+        fileName = today + '.json'
         with codecs.open(fileName, 'a', 'utf-8') as fp:
-            fp.write("%s \t %s \t %s \t %s \t %s \r\n"
-                    %(item['cityDate'],
-                        item['week'],
-                        item['temperature'],
-                        item['weather'],
-                        item['wind']))
+            jsonStr = json.dumps(dict(item))
+            fp.write("%s \r\n" %jsonStr)
         return item

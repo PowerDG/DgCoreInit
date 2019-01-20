@@ -25,12 +25,19 @@ class WuhanspiderSpider(scrapy.Spider):
         for i in range(7):
             item = WeatherItem()
             try:
+                print(city[0]+"-----------")
                 item['cityDate'] = city[0] + date[i]
                 item['week'] = week[i]
                 item['wind'] = wind[i]
                 item['temperature'] = temperature1[i] + ',' + temperature2[i]
                 item['weather'] = weather[i]
-            except IndexError as e:
-                sys.exit(-1)
+            except IndexError:
+
+                print("----IndexError-------")
+                continue
+			# 	pass
+			# #except IndexError as e:
+			# #	pass
+            #     #sys.exit(-1)
             items.append(item)
         return items

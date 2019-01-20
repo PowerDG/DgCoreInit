@@ -13,7 +13,7 @@ scrapy startproject todayMovie
 scrapy startproject weather
 
 New Scrapy project 'todayMovie', using template directory 'C:\\Anaconda3\\lib\\site-packages\\scrapy\\templates\\project', created in:
-    E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\todayMovie
+​    E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\todayMovie
 
 
 
@@ -41,6 +41,18 @@ cd weather
 scrapy genspider wuHanSpider wuhan.tianqi.com
 
 cd todayMovie
+
+cd /d E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\todayMovie
+
+scrapy crawl wuHanMovieSpider
+
+---
+
+
+
+scrapy crawl wuHanSpider
+
+scrapy shell https://www.tianqi.com/wuhan/
 
 
 
@@ -70,3 +82,20 @@ Created spider 'wuHanMovieSpider' using template 'basic' in module:
 
 
 
+> cd /d E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\weather
+
+
+
+scrapy  crawl wuHanSpider
+
+
+
+# scrapy中 HTTP status code is not handled or not allowed异常处理
+
+https://blog.csdn.net/u013109501/article/details/81875086
+
+scrapy中的setting文件中添加
+
+```
+HTTPERROR_ALLOWED_CODES = [403]
+```
