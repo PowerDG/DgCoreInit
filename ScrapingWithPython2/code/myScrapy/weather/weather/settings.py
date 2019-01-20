@@ -14,12 +14,17 @@ BOT_NAME = 'weather'
 SPIDER_MODULES = ['weather.spiders']
 NEWSPIDER_MODULE = 'weather.spiders'
 
+HTTPERROR_ALLOWED_CODES = [403]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'weather (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+<<<<<<< HEAD
+ROBOTSTXT_OBEY = False
+=======
+# ROBOTSTXT_OBEY = True
+>>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -64,9 +69,13 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'weather.pipelines.WeatherPipeline': 300,
-#}
+ITEM_PIPELINES = {
+<<<<<<< HEAD
+   'weather.pipelines.WeatherPipeline': 300,
+=======
+   'weather.pipelines.WeatherPipeline': 300, 
+>>>>>>> 1fa2c09afaddff9f9495323bfae403ab634ff366
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,3 +97,4 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+HTTPERROR_ALLOWED_CODES = [403]

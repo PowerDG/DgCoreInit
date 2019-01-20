@@ -64,9 +64,19 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'todayMovie.pipelines.TodaymoviePipeline': 300,
-#}
+
+ITEM_PIPELINES = {
+   'todayMovie.pipelines.TodaymoviePipeline': 300,
+}
+
+# 告诉Scrapy最终结果是pipelines的.TodaymoviePipeline类来处理【】
+# ITEM_PIPELINES作为字典
+# key处理结果的类
+# value为执行顺序  值越小越先被执行
+# 【scrapy crawl xxx
+# ls
+# cat *.txt】
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
