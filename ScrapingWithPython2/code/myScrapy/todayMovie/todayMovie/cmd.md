@@ -43,7 +43,9 @@ E:\DGPROJECT\PYPROJECT\DGCOREINIT\SCRAPINGWITHPYTHON2\CODE\MYSCRAPY\TODAYMOVIE\T
 
 
 
-(base) E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\todayMovie>scrapy genspider wuHanMovieSpider mtime.com
+(base) E:\DgProject\PyProject\DgCoreInit\ScrapingWithPython2\code\myScrapy\todayMovie>
+
+scrapy genspider wuHanMovieSpider mtime.com
 Created spider 'wuHanMovieSpider' using template 'basic' in module:
   todayMovie.spiders.wuHanMovieSpider
 
