@@ -1,0 +1,1 @@
+UPDATE abpusers SET Surname = '10001' WHERE id >11
