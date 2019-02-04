@@ -46,3 +46,35 @@ Created spider 'wuHanMovieSpider' using template 'basic' in module:
 
 
 
+
+
+
+
+
+
+```
+selector = response.xpath('/html/body/script[3]/text()')[0].extract()
+```
+
+```
+start_urls = ['http://theater.mtime.com/China_Hubei_Province_Wuhan_Wuchang/4316/']
+```
+
+scrapy crawl wuHanMovieSpider 
+
+scrapy shell   http://theater.mtime.com/China_Hubei_Province_Wuhan_Wuchang/4316/
+
+```
+selector = response.xpath('/html/body/script[3]/text()')[0].extract()
+# print(selector)
+```
+
+
+
+------
+
+
+
+scrapy crawl wuHanSpider
+
+scrapy shell https://www.tianqi.com/wuhan/
