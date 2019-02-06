@@ -16,21 +16,32 @@ import pymysql
 
 class WeatherPipeline(object):
     def process_item(self, item, spider):
-        cityDate = item['cityDate']
-        week = item['week']
-        temperature = item['temperature']
-        weather = item['weather']
-        wind = item['wind']
+        # position_name = scrapy.Field()
+        # position_link = scrapy.Field()
+        # position_type = scrapy.Field()
+        # people_num = scrapy.Field()
+        # work_address = scrapy.Field()
+        # publish_time = scrapy.Field()
+
+        position_name = item['position_name']
+        position_link = item['position_link']
+        position_type = item['position_type']
+        people_num = item['people_num']
+        work_address = item['work_address']
+        publish_time = item['publish_time']
 
         conn = pymysql.connect(
-                host = 'localhost',
-                port = 3306,
-                user = 'crawlUSER',
-                passwd = 'crawl123',
-                db = 'scrapyDB',
-                charset = 'utf8')
+                host='localhost',
+                port=3306,
+                user='root',
+                passwd='wsx1001',
+                db='dgmissiondb6',
+                charset='utf8')
         cur = conn.cursor()
-        mysqlCmd = "INSERT INTO weather(cityDate, week, temperature, weather, wind) VALUES('%s', '%s', '%s', '%s', '%s');" %(cityDate, week, temperature, weather, wind)
+        mysqlCmd = "INSERT INTO tencentpositions" \
+                   "(position_name, position_link, position_type, people_num, work_address, publish_time) " \
+                   "VALUES('%s', '%s', '%s', '%s', '%s');" \
+                   % (position_name, position_link, position_type, people_num, work_address, publish_time)
         cur.execute(mysqlCmd)
         cur.close()
         conn.commit()
