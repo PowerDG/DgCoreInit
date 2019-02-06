@@ -166,6 +166,53 @@ cmdline.execute("scrapy crawl tencentPosition".split())
 
 
 
+
+
+
+
+【
+
+```powershell
+  File "e:\programdata\anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy\tencent\tencent\pipelines2mysql.py", line 44, in process_item
+    % (position_name, position_link, position_type, people_num, work_address, publish_time)
+TypeError: not all arguments converted during string formatting
+2844
+2844
+2844
+2844
+2844
+2019-02-06 10:17:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-02-06 10:17:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 97139,
+ 'downloader/request_count': 287,
+ 'downloader/request_method_count/GET': 287,
+ 'downloader/response_bytes': 1171851,
+ 'downloader/response_count': 287,
+ 'downloader/response_status_count/200': 287,
+ 'dupefilter/filtered': 2559,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 2, 6, 2, 17, 18, 724680),
+ 'log_count/DEBUG': 289,
+ 'log_count/ERROR': 2844,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 5,
+ 'response_received_count': 287,
+ 'scheduler/dequeued': 286,
+ 'scheduler/dequeued/memory': 286,
+ 'scheduler/enqueued': 286,
+ 'scheduler/enqueued/memory': 286,
+ 'start_time': datetime.datetime(2019, 2, 6, 2, 16, 18, 258107)}
+2019-02-06 10:17:18 [scrapy.core.engine] INFO: Spider closed (finished)
+```
+
+
+
+
+
+】
+
 ```
 路过的关注一下，我会继续努力的！！！！ 
 ```
