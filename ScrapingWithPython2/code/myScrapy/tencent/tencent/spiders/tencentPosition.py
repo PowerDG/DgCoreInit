@@ -31,10 +31,13 @@ class TencentpositionSpider(scrapy.Spider):
             yield item  # 下一页的数据
             total_page = response.xpath('//div[@class="left"]/span/text()').extract()[0]
             print(total_page)
+            # print(url)
 
             if self.offset < int(total_page):
                 self.offset += 10
             new_url = self.url + str(self.offset) + "#a"
+
+            print(new_url)
             yield scrapy.Request(new_url, callback=self.parse)
 
 
