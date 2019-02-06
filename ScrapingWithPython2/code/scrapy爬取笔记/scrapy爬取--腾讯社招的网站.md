@@ -26,6 +26,8 @@
 
 【
 
+ E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy\tencent
+
 ```powershell
 (base) E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy>scrapy startproject tencent
 New Scrapy project 'tencent', using template directory 'e:\\programdata\\anaconda3\\lib\\site-packages\\scrapy\\templates\\project', created in:
