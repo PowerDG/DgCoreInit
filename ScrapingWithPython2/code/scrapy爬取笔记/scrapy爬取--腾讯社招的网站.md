@@ -42,6 +42,9 @@ You can start your first spider with:
 (base) E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy\tencent>scrapy genspider tencentPosition hr.tencent.com
 Created spider 'tencentPosition' using template 'basic' in module:
   tencent.spiders.tencentPosition
+  
+  
+  scrapy crawl tencentPosition
 ```
 
 】
