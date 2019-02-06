@@ -38,10 +38,8 @@ class TencentPipeline(object):
                 db='dgmissiondb6',
                 charset='utf8')
         cur = conn.cursor()
-        mysqlCmd = "INSERT INTO tencentpositions" \
-                   "(position_name, position_link, position_type, people_num, work_address, publish_time) " \
-                   "VALUES('%s', '%s', '%s', '%s', '%s');" \
-                   % (position_name, position_link, position_type, people_num, work_address, publish_time)
+        mysqlCmd = "INSERT INTO tencentpositions (position_name, position_link, position_type, people_num, work_address, publish_time) " \
+                   "VALUES('%s', '%s', '%s', '%s','%s', '%s');" % (position_name, position_link, position_type, people_num, work_address, publish_time)
         cur.execute(mysqlCmd)
         cur.close()
         conn.commit()
