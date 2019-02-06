@@ -8,6 +8,8 @@
 
 **一、**创建Scrapy项目的流程
 
+【本机使用Ancona命令环境】
+
 1）使用命令创建爬虫[腾讯](https://www.baidu.com/s?wd=%E8%85%BE%E8%AE%AF&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd)招聘的职位项目：scrapy startproject tencent
 
 2）进程项目命令：cd tencent,并且创建爬虫：scrapy genspider tencentPosition hr.tencent.com
@@ -21,6 +23,26 @@
 6）管道文件的编程
 
 7）settings.py文件的配置信息
+
+【
+
+```powershell
+(base) E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy>scrapy startproject tencent
+New Scrapy project 'tencent', using template directory 'e:\\programdata\\anaconda3\\lib\\site-packages\\scrapy\\templates\\project', created in:
+    E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy\tencent
+
+You can start your first spider with:
+    cd tencent
+    scrapy genspider example example.com
+
+(base) E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy>cd tencent
+
+(base) E:\DgProject\PyProject\ScrapingWithPython2\code\myScrapy\tencent>scrapy genspider tencentPosition hr.tencent.com
+Created spider 'tencentPosition' using template 'basic' in module:
+  tencent.spiders.tencentPosition
+```
+
+】
 
 ![img](https://oscimg.oschina.net/oscnet/d1e8ecac9af297c0b5c1ee19dc33009e685.jpg)
 
