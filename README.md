@@ -1,3 +1,3 @@
-# DgpyInit2
+# DgpyInit
 
 2018-2019-03-25
