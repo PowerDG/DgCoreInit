@@ -1,4 +1,6 @@
 
 import os
-import Pandas
+import pandas
+import numpy
+
 
