@@ -1,4 +1,4 @@
-# Python for Data Analysis, 2nd Edition
+#  Python for Data Analysis, 2nd Edition
 
 Materials and IPython notebooks for "Python for Data Analysis" by Wes McKinney,
 published by O'Reilly Media
